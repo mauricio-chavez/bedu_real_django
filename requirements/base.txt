@@ -4,7 +4,6 @@ argon2-cffi==20.1.0  # https://github.com/hynek/argon2_cffi
 graphene-django==2.13.0  # https://github.com/graphql-python/graphene
 django-graphql-jwt==0.3.1  # https://github.com/flavors/django-graphql-jwt
 django-cors-headers==3.5.0  # https://github.com/adamchainz/django-cors-headers
-git
 
 # Django
 # ------------------------------------------------------------------------------
