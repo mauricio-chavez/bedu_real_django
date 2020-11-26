@@ -1,0 +1,9 @@
+# PRECAUTION: avoid production dependencies that aren't in development
+
+-r base.txt
+
+redis==3.5.3  # https://github.com/andymccurdy/redis-py
+django-redis==4.12.1  # https://github.com/jazzband/django-redis
+gunicorn==20.0.4  # https://github.com/benoitc/gunicorn
+psycopg2==2.8.6  # https://github.com/psycopg/psycopg2
+
