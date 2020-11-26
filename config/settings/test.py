@@ -12,6 +12,14 @@ SECRET_KEY = env(
 )
 TEST_RUNNER = "django.test.runner.DiscoverRunner"
 
+# DATABASES
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': ':memory:',
+    }
+}
+
 # CACHES
 CACHES = {
     "default": {
